@@ -57,9 +57,7 @@ Before any transfer learning occured, I ran my test images through the network t
 ### V1
 After some transfer learning, I present the results below with some analysis on them. As we can see below the accuracy across all categories slowly increases the deeper the network is retrained. Accuracy went from 83.67% - 93.85% with the three cases of transfer learning. We can note that the category that performed the best was the Mushroom class, where the model also did not perform as well on Bell Peppers. It could be concluded that the variation in the Mushroom pictures is less than the variation in the bell pepper images, causing a harder classification problem for the network with Bell Peppers. 
 
-<img width="292" alt="Screen Shot 2022-07-12 at 9 38 43 PM" src="https://user-images.githubusercontent.com/72525765/178651857-b616f39f-35ba-4328-abe1-da35246d2995.png">
-<img width="304" alt="Screen Shot 2022-07-12 at 9 39 14 PM" src="https://user-images.githubusercontent.com/72525765/178651909-b0b62d3e-6d92-4dfc-a963-a85a8e8e3016.png">
-<img width="308" alt="Screen Shot 2022-07-12 at 9 39 28 PM" src="https://user-images.githubusercontent.com/72525765/178651926-bf37eaef-637d-4334-985a-8e8e9a1e4eae.png">
+<img width="292" alt="Screen Shot 2022-07-12 at 9 38 43 PM" src="https://user-images.githubusercontent.com/72525765/178651857-b616f39f-35ba-4328-abe1-da35246d2995.png"><img width="304" alt="Screen Shot 2022-07-12 at 9 39 14 PM" src="https://user-images.githubusercontent.com/72525765/178651909-b0b62d3e-6d92-4dfc-a963-a85a8e8e3016.png"><img width="308" alt="Screen Shot 2022-07-12 at 9 39 28 PM" src="https://user-images.githubusercontent.com/72525765/178651926-bf37eaef-637d-4334-985a-8e8e9a1e4eae.png">
 
 ### V2
 With the addition of Zuchinni as a vegetable in the dataset I hypothesized that the network would perform worse overall, with the majority of decrement in accuracy being from either the cucumber or the zuchinni class. This hypothesis was correct as the addition of the zuchinni actually took the accuracy of the cucumber class from 96.93% to 61.84%, a huge decrement in class accuracy from V1 case 2.
